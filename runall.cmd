@@ -32,6 +32,7 @@ rem Sort
 
 rem Search
 %ZIG_TEST% -Dalgorithm=search/bSearchTree %Args%
+%ZIG_TEST% -Dalgorithm=search/staticSearchTree %Args%
 %ZIG_TEST% -Dalgorithm=search/rb %Args%
 
 rem Threads

@@ -32,6 +32,7 @@ $ZIG_TEST -Dalgorithm=sort/insertsort $Args
 
 ## Search
 $ZIG_TEST -Dalgorithm=search/bSearchTree $Args
+$ZIG_TEST -Dalgorithm=search/staticSearchTree $Args
 $ZIG_TEST -Dalgorithm=search/rb $Args
 
 ## Threads

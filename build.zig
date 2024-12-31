@@ -51,6 +51,13 @@ pub fn build(b: *std.Build) void {
             .name = "binarySearchTree.zig",
             .category = "search",
         });
+    if (std.mem.eql(u8, op, "search/staticSearchTree"))
+        build_algorithm(b, .{
+            .optimize = optimize,
+            .target = target,
+            .name = "staticSearchTree.zig",
+            .category = "search",
+        });
     if (std.mem.eql(u8, op, "search/rb"))
         build_algorithm(b, .{
             .optimize = optimize,
