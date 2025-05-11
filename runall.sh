@@ -18,10 +18,17 @@ $ZIG_TEST -Dalgorithm=math/euclidianGCDivisor $Args
 $ZIG_TEST -Dalgorithm=math/gcd $Args
 
 # Data Structures
+$ZIG_TEST -Dalgorithm=ds/trie $Args
 $ZIG_TEST -Dalgorithm=ds/linkedlist $Args
+$ZIG_TEST -Dalgorithm=ds/doublylinkedlist $Args
 $ZIG_TEST -Dalgorithm=ds/lrucache $Args
+$ZIG_TEST -Dalgorithm=ds/stack $Args
 
 # Dynamic Programming
+$ZIG_TEST -Dalgorithm=dp/coinChange $Args
+$ZIG_TEST -Dalgorithm=dp/knapsack $Args
+$ZIG_TEST -Dalgorithm=dp/longestIncreasingSubsequence $Args
+$ZIG_TEST -Dalgorithm=dp/editDistance $Args
 
 ## Sort
 $ZIG_TEST -Dalgorithm=sort/quicksort $Args
